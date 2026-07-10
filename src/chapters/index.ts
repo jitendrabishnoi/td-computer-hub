@@ -1,23 +1,5 @@
 import { chapter1 } from "./chapter1";
 import { chapter2 } from "./chapter2";
-import { chapter3 } from "./chapter3";
-import { chapter4 } from "./chapter4";
-import { chapter5 } from "./chapter5";
-import { chapter6 } from "./chapter6";
-import { chapter7 } from "./chapter7";
-import { chapter8 } from "./chapter8";
-import { chapter9 } from "./chapter9";
-import { chapter10 } from "./chapter10";
-import { chapter11 } from "./chapter11";
-import { chapter12 } from "./chapter12";
-import { chapter13 } from "./chapter13";
-import { chapter14 } from "./chapter14";
-import { chapter15 } from "./chapter15";
-import { chapter16 } from "./chapter16";
-import { chapter17 } from "./chapter17";
-import { chapter18 } from "./chapter18";
-import { chapter19 } from "./chapter19";
-import { chapter20 } from "./chapter20";
 
 import { Chapter } from "../types";
 
@@ -343,24 +325,6 @@ export function getPrewrittenChapter(number: number): Chapter | null {
   const chapters: Record<number, Chapter> = {
     1: chapter1,
     2: chapter2,
-    3: chapter3,
-    4: chapter4,
-    5: chapter5,
-    6: chapter6,
-    7: chapter7,
-    8: chapter8,
-    9: chapter9,
-    10: chapter10,
-    11: chapter11,
-    12: chapter12,
-    13: chapter13,
-    14: chapter14,
-    15: chapter15,
-    16: chapter16,
-    17: chapter17,
-    18: chapter18,
-    19: chapter19,
-    20: chapter20,
   };
 
   return chapters[number] ?? null;
