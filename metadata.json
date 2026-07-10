@@ -1,0 +1,6 @@
+{
+  "name": "BCA Computer Basics & C Programming Textbook",
+  "description": "BCA First Year Textbook for Computer Fundamentals and C Programming in Hindi with Interactive AI Tutor, Quizzes, and PDF Export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
